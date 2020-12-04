@@ -1,0 +1,1 @@
+Making a webpage that is aestheically same as google homepage for Odin Project to get familiar with HTML structure and CSS design elements.
