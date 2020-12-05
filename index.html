@@ -51,6 +51,9 @@
             cursor: pointer;
             user-select: none;
         }
+        .flex{
+            display: flex;
+        }
 
     </style>
 <head>
@@ -74,11 +77,9 @@
         <input class="search" maxlength="2048" type="text" autocapitalize="none" autocorrect="off" spellcheck="false" title="Search" value="">
     </div>
     <div class="centering">
-        <div float="left">
-        <input class="submit" value="Google Search" type="submit">
-        </div>
-        <div float="left">
-        <input class="submit" value="I'm Feeling Lucky" type="submit">
+        <div class="flex">
+            <input class="submit" value="Google Search" type="submit">
+            <input class="submit" value="I'm Feeling Lucky" type="submit">
         </div>
     </div>
 </div>
