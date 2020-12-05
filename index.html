@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .centeringimg{
+            display: inline-block;
+            position: relative;
+            height: 180px;
+            width: 500px;
+            line-height: 180px;
+        }
+        .centering{
+            margin: 20px auto;
+            text-align: center;
+
+        }
+        .deadcenter{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 250px;
+            height: 250px;
+            margin-top: -125px;
+            margin-left: -125px;
+        }
+        .top{
+            display:inline-block;
+            font-size: 13px;
+            padding-left: 15px;
+            color: #000;
+            opacity: 0.75;
+        }
+        .body{
+            font-family: arial,sans-serif;
+        }
+        .top_right{
+            float: right;
+        }
+        .submit{
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+    </style>
+<head>
+</head>   
+<body class="body">
+    <a class="top" href="" src="">About</a>
+    <a class="top" href="" src="">Store</a>
+<div class="top_right">
+    <div>
+    <a class="top" href="" src="">Gmail</a>
+    <a class="top" href="" src="">Images</a>
+    <a class="top" href="" src="">Insert Icons here</a>
+    <a class="top" href="" src="">Sign In</a>
+    </div>
+</div>
+<div class="deadcenter">
+    <div>    
+        <img src="googlelogo_color_272x92dp.png">
+    </div>
+    <div class="centering">
+        <input class="search" maxlength="2048" type="text" autocapitalize="none" autocorrect="off" spellcheck="false" title="Search" value="">
+    </div>
+    <div class="centering">
+        <div float="left">
+        <input class="submit" value="Google Search" type="submit">
+        </div>
+        <div float="left">
+        <input class="submit" value="I'm Feeling Lucky" type="submit">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
